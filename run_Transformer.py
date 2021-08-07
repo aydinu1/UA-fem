@@ -54,5 +54,3 @@ data = read_data([4,4], "transformer_1TD_ugur_fine.msh", msh_plot = 0)
 #  Time-stepping solution
 #  Provide function argumets as key-word arguments.
 out_data = solver_timestep_Transformer2(data = data, inputs = inputs, flag_plot = True)
-
-
