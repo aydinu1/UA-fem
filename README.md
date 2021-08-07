@@ -5,4 +5,4 @@ The mesh of the problem geometry has to be supplied externally.
 
 There is an example transformer model in the directory which can be tested by running "run_Transformer.py". 
 
-Copyright Ugur Aydin 2018-2020 unless otherwise stated.
+All copyright Ugur Aydin 2018-2020 unless otherwise stated.
