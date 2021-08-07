@@ -15,7 +15,10 @@ def read_msh(file, flag_plot):
     
     #%%
     # Read Mesh
-    msh = read_gmsh(file)
+    import sys
+    if "/mesh" not in sys.path:
+        sys.path.append("/mesh")
+    msh = read_gmsh("mesh/"+file)
     
     #We have first order mesh
     itri = 1    #triangle element indices in the .msh class
